@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.8
 
 RUN apt update \
  # && curl -sL https://deb.nodesource.com/setup_14.x | bash - \
