@@ -9,7 +9,7 @@ Houston is a REST API component within the CODEX application suite. It is used t
 For a high-level explanation of the application in relation to other CODEX applications read the documentation at [CODEX - Houston](https://docs.wildme.org/docs/developers/houston).
 
 
-## About this implementation
+## About This Implementation
 
 This project showcases my vision on how the RESTful API server should be
 implemented.
