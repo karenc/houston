@@ -22,6 +22,7 @@ class AnnotationKeywords(db.Model, HoustonModel):
     keyword_guid = db.Column(db.GUID, db.ForeignKey('keyword.guid'), primary_key=True)
     annotation = db.relationship('Annotation', back_populates='keyword_refs')
     keyword = db.relationship('Keyword')
+    version = db.Column(db.BigInteger, default=None, nullable=True)
 
 
 class Annotation(db.Model, HoustonModel):
